@@ -7,8 +7,7 @@ int main(void)
     do
     {
         hight = get_int("Hight: ");
-    }
-    while (hight <= 0 || hight > 8);
+    } while (hight <= 0 || hight > 8);
 
     for (int i = 1; i <= hight; i++)
     {
